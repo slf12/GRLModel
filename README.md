@@ -6,8 +6,10 @@ code for IJCAI 18 paper: Grouping Attribute Recognition for Pedestrian with Join
 - python version : 3.4
 - tensorflow version: >= 1.4
 
-### model
-    the best model in the paper is in 
+### resource
+    best rap model is: 链接: https://pan.baidu.com/s/1m_bOW2x9_fyhy8dSlPWCuw 提取码: y9ip 
+    best peta model is: 链接: https://pan.baidu.com/s/1acNTb668IVppJyhfzop_ow 提取码: 3upe
+    rap label data: 链接: https://pan.baidu.com/s/15MRSqdg7izo8HgnOD2uCTQ 提取码: 85uk 
 
 ### prepare data (use rap as example)
 - ROI data: 
@@ -16,11 +18,11 @@ use pose estimation model provided in Spindle Net (github link is https://github
     
 - put rap or peta label data and region proposal data together.
 
-for format is:
+file format is:
 
     # 0 
     CAM12_2014-03-05_20140305110334-20140305111754_tarid1199_frame8675_line1.png
-    0  0  0  1  0  1  0  1  0  0  0  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+    -1  -1  -1  1  -1  1  -1  1  -1  -1  -1  1  -1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  1  -1  -1  1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
     19.75390625 0 68 48.6875
     0 28.796875 68 112.9609375
     0 72.4375 68 188.8125
@@ -30,6 +32,7 @@ for format is:
     8.18247767857 74.8125 35.3253348214 174.5625
     
     that is
+    
     image index
     attribute labels
     head region coordinate
