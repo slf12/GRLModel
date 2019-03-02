@@ -32,7 +32,7 @@ file format is:
     8.18247767857 74.8125 35.3253348214 174.5625
     
     that is
-    
+
     image index
     attribute labels
     head region coordinate
@@ -46,6 +46,12 @@ file format is:
 
 
 ### train
+
+
+- install bazel
+- in root dir, run  "bazel build //inception:rap_train"  or "bazel build //inception:rap_test"
+
+
 
 run command for example:
 
