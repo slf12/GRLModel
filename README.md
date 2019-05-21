@@ -9,7 +9,8 @@ code for IJCAI 18 paper: Grouping Attribute Recognition for Pedestrian with Join
 ### resource
     best rap model is: 链接: https://pan.baidu.com/s/1m_bOW2x9_fyhy8dSlPWCuw 提取码: y9ip 
     best peta model is: 链接: https://pan.baidu.com/s/1acNTb668IVppJyhfzop_ow 提取码: 3upe
-    rap label data: 链接: https://pan.baidu.com/s/15MRSqdg7izo8HgnOD2uCTQ 提取码: 85uk 
+    rap TFRecord file: 链接: https://pan.baidu.com/s/15MRSqdg7izo8HgnOD2uCTQ 提取码: 85uk 
+    dataset label file: 链接: https://pan.baidu.com/s/16D1spNxN2SjZZR5l6v22Uw 提取码: iswu
 
 ### prepare data (use rap as example)
 - ROI data: 
